@@ -51,4 +51,18 @@ public class Student {
     public String toString(){
     return name+" "+age;
     }
+
+    /**
+     * @return the rollCall
+     */
+    public int getRollCall() {
+        return rollCall;
+    }
+
+    /**
+     * @param rollCall the rollCall to set
+     */
+    public void setRollCall(int rollCall) {
+        this.rollCall = rollCall;
+    }
 }
